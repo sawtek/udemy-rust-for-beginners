@@ -16,7 +16,7 @@ enum Flavor {
 
 struct Drink {
     flavor: Flavor,
-    ounces: i32,
+    ounces: f32,
 }
 
 fn print_drink(drink: Drink) {
@@ -35,13 +35,13 @@ fn print_drink(drink: Drink) {
 fn main() {
     let my_drink = Drink {
         flavor: Flavor::Cherry,
-        ounces: 173,
+        ounces: 173f32, // experimenting with float suffixes
     };
     print_drink(my_drink);
 
     print_drink(Drink {
         // ok cool the language lets people do this
         flavor: Flavor::Orange,
-        ounces: 8,
+        ounces: 8.5,
     });
 }
