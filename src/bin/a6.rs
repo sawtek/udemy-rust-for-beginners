@@ -12,10 +12,9 @@
 
 fn main() {
     let mut counter = 5;
-    while counter > 0
-    {
+    while counter > 0 {
         println!("{counter}");
         counter -= 1;
     }
-    println!("done");
+    println!("done!");
 }
