@@ -21,12 +21,10 @@ fn main() {
     println!("Sub {sub}");
 }
 
-fn display_first_name()
-{
+fn display_first_name() {
     println!("Alex");
 }
 
-fn display_last_name()
-{
+fn display_last_name() {
     println!("Wilson");
 }

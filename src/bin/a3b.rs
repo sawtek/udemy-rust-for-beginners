@@ -13,11 +13,9 @@ fn main() {
     let value = 7;
     if value == 5 {
         println!("=5");
-    }
-    else if value < 5{ 
+    } else if value < 5 {
         println!("<5");
-    }
-    else {
+    } else {
         println!(">5");
     }
 }

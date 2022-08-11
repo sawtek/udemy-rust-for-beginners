@@ -11,11 +11,10 @@
 // * Use the println macro to display messages to the terminal
 
 fn main() {
-    let bool :bool = true;
+    let bool: bool = true;
     if bool {
         println!("hello");
-    }
-    else {
+    } else {
         println!("goodbye");
     }
 }
