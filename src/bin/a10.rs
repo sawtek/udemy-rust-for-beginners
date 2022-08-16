@@ -12,4 +12,16 @@
 // * Use a match expression to determine which message
 //   to print
 
-fn main() {}
+fn print_message(which: bool) {
+    let message = match which {
+        true => "its big",
+        _ => "its small",
+    };
+    println!("{:?}", message);
+}
+
+fn main() {
+    let my_variable = 101;
+    let bool_var = my_variable > 100; // the if would be redundant.
+    print_message(bool_var);
+}
